@@ -29,7 +29,7 @@ h1 {
 }
 
 
-button {
+#unique {
     color: azure;
     margin-top: 100px;
     background-color: rgb(40, 48, 68);
@@ -39,7 +39,7 @@ button {
     transition: width 1s;
 }
 
-button:hover {
+#unique:hover {
     background-color: aliceblue;
     color: rgb(17, 17, 16);
     width: 150px;
@@ -68,7 +68,7 @@ img {
     background-color: rgb(249, 255, 255);
     height: 50px;
     width: 300px;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-left: 5px;
 
 }
@@ -77,15 +77,39 @@ img {
     background-color: rgb(249, 255, 255);
     height: 50px;
     width: 300px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 5px;
 }
 #new3 {
     color: white;
-    background-color: rgb(33, 35, 52);
+    background-color: rgb(97, 98, 109);
     height: 50px;
     width: 300px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 5px;
 
+}
+button{
+    color: #000;
+    background-color: aliceblue;
+    height: 50px;
+    width: 200px;
+}
+.playrs{
+    border: 2px solid;
+    border-color: rgb(93, 95, 94);
+    border-radius: 3px;
+    margin-top: 5%;
+    background-color: rgb(236, 235, 237);
+}
+.players-container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    margin-left: 30%;
+
+}
+.playrs img{
+    height: 250px;
+    width: 320px;
 }
