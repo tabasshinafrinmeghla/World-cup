@@ -1,28 +1,50 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
     font-size: '';
     background-color: rgb(220, 241, 241);
 }
 
-.container{
-    height: 646px;
-    width: 1321px;
+.container {
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 556px;
+    width: 1121px;
     justify-items: center;
+    justify-content: space-around;
     color: rgb(250, 243, 243);
     background-color: rgb(28, 26, 26);
     display: flex;
+    border-radius: 10px;
 }
 
+.player {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+h1{
+    font-size: 50px;
+}
 
 button {
+    margin-top: 50px;
     color: rgb(252, 247, 247);
-    background-color: red;
+    background-color: rgb(138, 54, 109);
     height: 50px;
     width: 100px;
+    transform: scale(1);
+    transition: width 1s;
 }
-.player{
-    display: grid;
-    grid-template-columns: 2, 1fr;
 
+button:hover {
+    background-color: aliceblue;
+    color: rgb(17, 17, 16);
+    width: 150px;
+    
+}
+
+img {
+    height: 500px;
+    width: 400px;
 }
