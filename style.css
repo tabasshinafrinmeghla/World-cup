@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color: rgb(220, 241, 241);
+    background-color: rgb(173, 175, 175);
 }
 
 .container {
@@ -16,6 +16,19 @@ body {
     display: flex;
     border-radius: 10px;
 }
+.about-container {
+    background-color: rgb(40, 40, 42);
+    display: flex;
+    justify-content: left;
+    height: 312px;
+    width: 312px;
+    margin-top: 10ex;
+    border-radius: 2%;
+    margin-left: 4%;
+
+}
+
+
 
 .player {
     text-align: left;
@@ -50,17 +63,6 @@ img {
     width: 400px;
 }
 
-.about-container {
-    background-color: rgb(40, 40, 42);
-    display: flex;
-    justify-content: left;
-    height: 312px;
-    width: 312px;
-    margin-top: 10ex;
-    border-radius: 2%;
-    margin-left: 4%;
-
-}
 
 
 #new1 {
@@ -120,6 +122,7 @@ button {
     width: 320px;
 }
 .inner-footer{
+   
     text-align: center;
     height: 300px;
     width: 1311px;
@@ -127,6 +130,7 @@ button {
     background-color: #000;
 }
 ul{
+    color: rgb(173, 175, 177);
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
