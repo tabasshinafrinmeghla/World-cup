@@ -1,0 +1,19 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-size: '';
+    background-color: rgb(220, 241, 241);
+}
+
+.container {
+    color: rgb(250, 243, 243);
+    background-color: rgb(28, 26, 26);
+
+}
+
+button {
+    color: rgb(252, 247, 247);
+    background-color: red;
+    height: 50px;
+    width: 100px;
+}
