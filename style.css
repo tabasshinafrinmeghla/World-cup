@@ -7,13 +7,13 @@ body {
 
 .container {
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 4%;
     height: 556px;
-    width: 1121px;
+    width: 1421px;
     justify-items: center;
     justify-content: space-around;
     color: rgb(250, 243, 243);
-    background-color: rgb(28, 26, 26);
+    background-color: rgb(37, 39, 41);
     display: flex;
     border-radius: 10px;
 }
@@ -23,14 +23,16 @@ body {
     margin-top: 100px;
     margin-left: 10%;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
 
+
 button {
-    margin-top: 50px;
-    color: rgb(252, 247, 247);
-    background-color: rgb(138, 54, 109);
+    color: azure;
+    margin-top: 100px;
+    background-color: rgb(40, 48, 68);
     height: 50px;
     width: 100px;
     transform: scale(1);
@@ -41,10 +43,49 @@ button:hover {
     background-color: aliceblue;
     color: rgb(17, 17, 16);
     width: 150px;
-    
+
 }
 
 img {
     height: 500px;
     width: 400px;
+}
+
+.about-container {
+    background-color: rgb(40, 40, 42);
+    display: flex;
+    justify-content: left;
+    height: 312px;
+    width: 312px;
+    margin-top: 10ex;
+    border-radius: 2%;
+    margin-left: 4%;
+
+}
+
+#new1 {
+    color: #000;
+    background-color: rgb(249, 255, 255);
+    height: 50px;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 5px;
+
+}
+#new2 {
+    color: #000;
+    background-color: rgb(249, 255, 255);
+    height: 50px;
+    width: 300px;
+    margin-top: 20%;
+    margin-left: 5px;
+}
+#new3 {
+    color: white;
+    background-color: rgb(33, 35, 52);
+    height: 50px;
+    width: 300px;
+    margin-top: 20%;
+    margin-left: 5px;
+
 }
