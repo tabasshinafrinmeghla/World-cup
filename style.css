@@ -37,13 +37,13 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 
 #unique {
     color: azure;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: rgb(40, 48, 68);
     height: 50px;
     width: 100px;
@@ -121,8 +121,7 @@ button {
     height: 250px;
     width: 320px;
 }
-.inner-footer{
-   
+footer{
     text-align: center;
     height: 300px;
     width: 1311px;
@@ -145,4 +144,10 @@ hr{
 hr:hover{
     background-color: white;
     height: 1%;
+}
+@media only screen and(max-width:688px){
+    .container{
+        background-color:rgb(173, 175, 175) ;
+    }
+    
 }
